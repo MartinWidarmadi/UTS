@@ -11,63 +11,84 @@
     <!-- header -->
     <header>
       <!-- navbar -->
+      
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Objek Wisata</a></li>
-          <li><a href="">Tentang Bromo</a></li>
-          <li><a href="">Referensi</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="objekwisata.html">Objek Wisata</a></li>
+          <li><a href="tentangbromo.html">Tentang Bromo</a></li>
+          <li><a href="referensi.html">Referensi</a></li>
         </ul>
       </nav>
+      <div class="brand">Brovel</div>
       <!-- Selamat datang -->
       <h1 class="header-h1">Selamat datang Brovels!</h1>
       <p class="header-p">
         Kami siap membantu para pendaki handal <br>
         untuk berkeliling gunung bromo
       </p>
-      <button>Yuk langsung cek</button>
+      <a href="#fasilitas"><button>Yuk langsung cek</button></a>
     </header>
 
     <main>
-      <section class="fasilitas">
+    <section class="fasilitas" id="fasilitas">
         <!-- jadwal -->
         <div class="jadwal">
-          <h2>Penjadwalan</h2>
-          <br>
+          <ion-icon class="jam" name="alarm-outline"></ion-icon>
+          <h2>Jadwal</h2>
           <p>
-            Kami akan membuat <br>
-            jadwal sesuai dengan <br>
+            Kami akan membuat 
+            jadwal sesuai dengan 
             rencana yang anda pilih.
+            Anda bisa memilih sesuai
+            dengan budget yang anda 
+            miliki.
           </p>
         </div>
-             
-
+            
+        <!-- tour guide -->
         <div class="tour-guide">
-          <h2>Tour Guide</h2>
-          <br>
+          <ion-icon class="people" name="people-outline"></ion-icon>
+          <h2>Tour</h2>
           <p>
-            Kami memiliki tour guide <br>
-            profesional yang akan <br> 
-            membantu anda untuk <br>
-            menjelajahi objek wisata <br>
-            yang ada
+            Kami memiliki tour guide
+            profesional yang akan
+            membantu anda untuk
+            menjelajahi objek wisata
+            yang ada. Jadi anda tidak
+            bingung dalam perjalanan.
           </p>
         </div>
 
-        <!-- <div class="transportasi">
-          <h2>Transportasi</h2>
+        <!-- transportasi -->
+        <div class="transportasi">
+          <ion-icon class="sepeda" name="bicycle-outline"></ion-icon>
+          <h2>Angkutan</h2>
           <p>
-            Kami memiliki transportasi sendiri yang akan membawa anda menjelajahi Gunung Bromo dengan nyaman
+            Kami memiliki transportasi 
+            sendiri yang akan membawa 
+            anda menjelajahi Gunung 
+            Bromo dengan nyaman 
           </p>
         </div>
 
+        <!-- perlengkapan -->
         <div class="perlengkapan">
-          <h2>Perlengkapan</h2>
+          <ion-icon class="palu" name="hammer-outline"></ion-icon>
+          <h2>Alat</h2>
           <p>
-            Kami menyediakan perlengkapan yang profesional untuk mendaki gunung. Jadi anda para pendaki handal tidak perlu khawatir jika ingin mendaki gunung.
+            Kami menyediakan perlengkapan 
+            yang profesional untuk 
+            mendaki gunung. Jadi anda 
+            para pendaki handal tidak perlu 
+            khawatir jika ingin mendaki 
+            gunung.
           </p>
-        </div> -->
+        </div> 
       </section>
+      <hr>
     </main>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
