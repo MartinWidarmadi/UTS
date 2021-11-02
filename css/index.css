@@ -16,7 +16,6 @@ body{
 
 /* ------------------------header------------------------ */
 header{
-  margin: 0;
   position: relative;
   width: 100%;
   height: 800px;
@@ -313,7 +312,7 @@ header button:hover{
   height: 400px;
   position: absolute;
   top: 25%; 
-  background-color: #7D7B42;
+  background-color: #FBF673;
   color: #4D4A24;
   border: 3px solid black;
   border-radius: 20px;
@@ -353,7 +352,7 @@ header button:hover{
 
 .harga p{
   font-size: 30px;
-  width: 200px;
+  width: 250px;
   font-weight: 400;
   position: relative;
   bottom: 10%;
@@ -372,7 +371,7 @@ header button:hover{
 
 .harga div:hover{
   border: 3px solid rgb(138, 46, 46);
-  background-color: #ADAB61;
+  background-color: #FBF9BF;
   color: #3C2361;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -383,6 +382,7 @@ header button:hover{
 }
 
 .harga div:hover h3{
+  color: #AA72AD;
   cursor: default;
 }
 
@@ -395,8 +395,9 @@ header button:hover{
   position: absolute;
   top: 80%;
   font-size: 30px;
-  width: 300px;
-  left: 28.8%;
+  width: 210px;
+  height: 50px;
+  left: 27.2%;
 }
 
 .harga .p2{
@@ -404,7 +405,80 @@ header button:hover{
   position: absolute;
   top: 80%;
   font-size: 30px;
-  width: 300px;
-  left: 68.5%;
+  width: 230px;
+  height: 60px;
+  left: 67%;
 }
+
+.p1:hover, .p2:hover{
+  cursor: pointer;
+}
+
+/* fixed-button */
+.fixed-button{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 4px solid #44bd32;
+  border-radius: 50px;
+  right: 10px;
+  bottom: 10px;
+  transition: .5s;
+}
+
+.arrow-up{
+  font-size: 45px;
+  color: #44bd32;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%); 
+  transition: .3s;
+}
+
+.fixed-button:hover{
+  border-color: rgb(51, 168, 30);
+  background-color: rgb(51, 168, 30);
+}
+
+.fixed-button:hover .arrow-up{
+  color: whitesmoke;
+}
+
+footer{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../src/GunungBromo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-150%);
+  font-size: 30px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+footer span{
+  font-weight: 400;
+  color: #44bd32;
+}
+
+footer p{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+
+
 
