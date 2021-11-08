@@ -1,84 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-        <section id="objek">
-          <div class="layar-dalam">
-            <h3>Objek Wisata</h3>
-        <section class="abuabu" id="support">
-          <div class="layar-dalam support">
-            <div>
-              <h6>Bukit Cinta</h6>
-              <p>
-                Bukit cinta atau love hills merupakan tempat yang sangat populer untuk dikunjungi. Di sini selain bisa menyaksikan keindahan sunrise di pagi buta, Anda juga dapat memanjakan mata dengan deretan bukit yang mengelilinginya. Di pagi hari Anda bisa menyaksikan keindahan lembah dan bukit yang masih tertutup awan kabut. Namun di siang hari meskipun sedikit panas, namun Anda bisa menyaksikan hijaunya pegunungan dengan deretan bukit-bukit yang nampak cantik dan mempesona. Lokasi bukit cinta ini masih bersebelahan dengan bukit kingkong.</p>
+    <!-- header -->
+    <header id="header">
+      <!-- navbar -->
+      
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="objekwisata.html">Objek Wisata</a></li>
+          <li><a href="tentangbromo.html">Tentang Bromo</a></li>
+          <li><a href="referensi.html">Referensi</a></li>
+        </ul>
+      </nav>
+      <div class="brand">Brovel</div>
+      <!-- Selamat datang -->
+      <h1 class="header-h1">Selamat datang Brovels!</h1>
+      <p class="header-p">
+        Kami siap membantu para penjelajah handal <br>
+        untuk berkeliling gunung bromo
+      </p>
+      <a href="#fasilitas"><button>Yuk langsung cek</button></a>
+    </header>
+
+    <main>
+    <section class="fasilitas" id="fasilitas">
+        <!-- jadwal -->
+        <div class="jadwal">
+          <ion-icon class="jam" name="alarm-outline"></ion-icon>
+          <h2>Jadwal</h2>
+          <p>
+            Kami akan membuat 
+            jadwal sesuai dengan 
+            rencana yang anda pilih.
+            Anda bisa memilih sesuai
+            dengan budget yang anda 
+            miliki.
+          </p>
+        </div>
+            
+        <!-- tour guide -->
+        <div class="tour-guide">
+          <ion-icon class="people" name="people-outline"></ion-icon>
+          <h2>Tour</h2>
+          <p>
+            Kami memiliki tour guide
+            profesional yang akan
+            membantu anda untuk
+            menjelajahi objek wisata
+            yang ada. Jadi anda tidak
+            bingung dalam perjalanan.
+          </p>
+        </div>
+
+        <!-- transportasi -->
+        <div class="transportasi">
+          <ion-icon class="sepeda" name="bicycle-outline"></ion-icon>
+          <h2>Angkutan</h2>
+          <p>
+            Kami memiliki transportasi 
+            sendiri yang akan membawa 
+            anda menjelajahi Gunung 
+            Bromo dengan nyaman 
+          </p>
+        </div>
+
+        <!-- perlengkapan -->
+        <div class="perlengkapan">
+          <ion-icon class="palu" name="hammer-outline"></ion-icon>
+          <h2>Alat</h2>
+          <p>
+            Kami menyediakan perlengkapan 
+            yang profesional untuk 
+            mendaki gunung. Jadi anda 
+            para pendaki handal tidak perlu 
+            khawatir jika ingin mendaki 
+            gunung.
+          </p>
+        </div> 
+      </section>
+      
+      <section class="objek-wisata">
+        <h2>Objek wisata pada <span>Gunung Bromo</span></h2>
+        <div class="container-img">
+            <div class="image">
+              <div class="text">Gunung Bromo</div>
+              <img src="src/GunungBromo.jpg" alt="Gunung Bromo">
             </div>
-            <div>
-              <h6>Bukit Kingkong</h6>
-              <p>Bukit Kingkong menjadi salah satu tempat yang sering digunakan untuk melihat kecantikan sunrise di Bromo. Tempatnya tidak jauh dari penanjakan 1, jaraknya sekitar 2,5 km saja. Meskipun menjadi alternatif untuk melihat sunrise, namun tempat ini begitu populer di kalangan wisatawan. Sehingga untuk bisa menyaksikan keindahan sunrise pun Anda harus rela berdesakan dengan wisatawan lain yang sama-sama ingin menyaksikan keindahan sunrise dari bukit ini.</p>
+
+            <div class="image">
+              <div class="text">Kawah Gunung</div>
+              <img src="src/KawahGunung.jpg" alt="Kawah Gunung">
             </div>
-            <div>
-              <h6>Bukit Teletubbies</h6>
-              <p>Nama bukit teletabis Bromo mungkin sudah tidak asing lagi bagi Anda. Bahkan obyek wisata Bromo ini menjadi tempat favorit untuk kalangan wisatawan. Selain bisa menikmati kecantikan gunung Bromo dengan deretan bukit hijau. area ini juga menjadi spot foto terbaik. Bukitnya dipenuhi dengan rerumputan hijau yang sangat cantik. Bahkan rumput di sini sangat terjaga sehingga nampak begitu rapi. Jadi, saat berkunjung ke kawasan Bromo Tengger, maka jangan lewatkan untuk berkunjung ke sini.</p>
+            <div class="image">
+              <div class="text">Pasir Berbisik</div>
+              <img src="src/pasirberbisik.jpg" alt="Pasir Berbisik">
             </div>
-            <div>
-              <h6>Kawah Bromo</h6>
-              <p>keindahan kawah Gunung Bromo. Di sini Anda akan dimanjakan dengan kecantikan kawah Bromo yang begitu memesona. Namun untuk bisa melihatnya dengan jarak yang lebih dekat, pengunjung harus rela berjalan kaki sekitar 2 km dari area parkir. Belum lagi, masih ada ratusan anak tangga yang harus Anda takhlukan. Namun jika merasa malas untuk menapaki anak tangga di sini ataupun merasa tidak kuat, Anda bisa memilih dengan menunggangi kuda sambil menikmati keindahan yang ada di sekelilingnya.</p>
+
+            <div class="image penanjakan">
+              <div class="text">Penanjakan 1</div>
+              <img src="src/penanjakan1.jpg" alt="Penanjakan 1">
             </div>
-            <div>
-              <h6>Pasir Berbisik</h6>
-              <p>Sebelum sampai ke kawah Gunung Bromo, Anda akan disambut dengan hamparan pasir yang cukup luas. Hamparan pasir ini diberi nama dengan sebutan pasir berbisik. Areanya cukup luas, pengunjung bisa dengan mudah mengambil spot terbaik untuk berfoto. Selain itu, di pasir ini Anda juga dapat menikmati kegiatan lain, seperti mengendarai motor tril, menunggangi kuda, dan masih banyak lagi. Lokasinya berada di sebelah timur puncak Bromo.</p>
+            
+            <div class="image">
+              <div class="text">Pura Luhur</div>
+              <img src="src/puraluhur.jpg" alt="Pura Luhur">
             </div>
-            <div>
-              <h6>Penanjakan 1</h6>
-              <p>Penanjakan 1 merupakan lokasi terbaik untuk menyaksikan matahari terbit. Lokasi ini merupakan yang paling tinggi di antara bukit lainnya. Di sini Anda bisa langsung menyaksikan kecantikan sunrise di pagi buta dengan keindahan lembah yang masih tertutup kabut. Untuk bisa mencapai bukit penanjakan 1, pengunjung bisa menggunakan kendaraan seperti jeep dan sepeda motor. Namun untuk keamanan yang lebih tinggi, sebaiknya hindari menggunakan sepeda motor jenis matic karena medannya cukup berat.</p>
-            </div>
-            <div>
-              <h6>Pura Luhur</h6>
-              <p>Pura Luhur Poten. Pura di sini merupakan tempat ibadah warga sekitar yang memeluk agama Hindu. Tidak heran saat perayaan Nyepi tiba, kawasan ini selalu diramaikan dengan kunjungan warga lokal yang ingin melakukan ibadah di sana. Biasanya kawasan Taman Nasional Bromo Tengger pun juga ikut ditutup demi kenyamanan warga yang ingin melaksanakan ibadahnya di Pura ini.</p>
-            </div>
-        </section>
-        <section id="gallery">
-          <div><img src="src/bukitcinta.jpg" /></div>
-          <div><img src="src/bukitkingkong.jpg" /></div>
-          <div><img src="src/bukittetubbies.png" /></div>
-          <div><img src="src/GunungBromo.jpg" /></div>
-          <div><img src="src/KawahGunung.jpg" /></div>
-          <div><img src="src/pasirberbisik.jpg" /></div>
-          <div><img src="src/penanjakan1.jpg" /></div>
-          <div><img src="src/puraluhur.jpg" /></div>
-        </section>
-        <section class="quote">
-          <div class="layar-dalam">
-            <p>Nikmati, tanpa membuatnya mati.</p>
+        </div>
+
+        <div class="container-img1">
+          <div class="image1">
+            <div class="text1 penanjakan1">Penanjakan 2</div>
+            <img src="src/penanjakan2.jpg" alt="Penanjakan 2">
           </div>
-        </section>
-        <section id="team">
-          <div class="layar-dalam">
-            <h3>Kelompok 7</h3>
-            <div class="tim">
-              <div>
-                <img src="src/b.jfif" />
-                <h6>Bildzan Samudra Paloza</h6>
-                <span>2072036</span>
-              </div>
-              <div>
-                <img src="src/m.jfif" />
-                <h6>Martin WIdarmadi</h6>
-                <span>2072010</span>
-              </div>
-              <div>
-                <img src="src/y.jfif" />
-                <h6>Yeremia</h6>
-                <span>2172031</span>
-              </div>
-            </div>
+
+          <div class="image1">
+            <div class="text1">Bukit Cinta</div>
+            <img src="src/bukitcinta.jpg" alt="Bukit Cinta">
           </div>
-        </section>
+
+          <div class="image1">
+            <div class="text1">Bukit Kingkong</div>
+            <img src="src/bukitkingkong.jpg" alt="Bukit Kingkong">
+          </div>
+
+          <div class="image1">
+            <div class="text1">Bukit Teletubbies</div>
+            <img src="src/bukittetubbies.png" alt="Bukit Teletubbies">
+          </div>
+          
+          <div class="image1">
+            <div class="text1">Desa Ngasdas</div>
+            <img src="src/desangadas.jpg" alt="Desa Ngadas">
+          </div>
+        </div>
+      </section>
+
+      <section class="harga">
+        <h2>Pilih rencana anda sekarang juga!</h2>
+        <div class="standart">
+          <h3><b>Standart</b></h3>
+          <ion-icon class="standart-icon" name="bus-outline"></ion-icon>
+          <p>Bus Standart</p>
+          <ion-icon class="standart-icon" name="home-outline"></ion-icon>
+          <p>Hotel Standart</p>
+          <ion-icon class="standart-icon" name="calendar-number-outline"></ion-icon>
+          <p>3 Hari</p>
+        </div>
+        <div class="premium">
+          <h3><b>Premium</b></h3>
+          <ion-icon class="premium-icon" name="bus-outline"></ion-icon>
+          <p>Bus Premium</p>
+          <ion-icon class="premium-icon" name="home-outline"></ion-icon>
+          <p>Hotel Premium</p>
+          <ion-icon class="premium-icon" name="calendar-number-outline"></ion-icon>
+          <p>5 Hari</p>
+        </div>
+        <p class="harga-p p1">IDR 900.000,00</p>
+        <P class="harga-p p2">IDR 1.500.000,00</P>
+      </section>
+    </main>
+
+    <footer>
+      <h2><span>Brovel</span> by kelompok 7</h2>
+      <p>2072010 Martin Widarmadi</p>
+      <p>2072036 Bildzan Samudra Paloza</p>
+      
+    </footer>
+    <div class="fixed-button">
+      <a href="#header"><ion-icon class="arrow-up" name="chevron-up-outline"></ion-icon></a>
+    </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
