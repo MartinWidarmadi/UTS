@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.layar-penuh {
+    width: 100%;
+}
+section {
+    padding: 50px 0px 50px 0px;
+}
+section h3 {
+    font-size: 30px;
+}
+section h3::after {
+    content: "";
+    border-bottom: 5px solid green;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+}
+#objek,
+#team {
+    text-align: center;
+}
+section.abuabu {
+    background-color: #72727275;
+}
+.support,
+.tim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.support h6,
+.tim h6 {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.support div,
+.tim div {
+    text-align:center ;
+    width: 26%;
+    font-size: 15px;
+    padding: 10px;
+}
+section#gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+section#gallery div {
+    padding: 10px;
+}
+section#gallery div img {
+    height: 100px;
+    border-radius: 5px;
+}
+section#gallery div img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+section.quote {
+    background: url("src/background-bromo.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    padding: 100px;
+}
+section.quote .layar-dalam p {
+    display: inline;
+    background: url("src/quote-icon.png") no-repeat;
+    padding: 40px;
+}
+.tim img {
+    width: 100%;
+    box-shadow: 0px -10px 30px #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 991.98px) {
+.layar-dalam {
+    width: 90%;
+}
+.support {
+    display: block;
+}
+.support div {
+    width: 100%;
+    padding-bottom: 30px;
+ }
+}
