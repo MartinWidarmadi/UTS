@@ -113,10 +113,10 @@ header button:hover{
 
 /* ----------fasilitas---------- */
 .fasilitas{
+  background-color: lightgoldenrodyellow;
   width: 100%;
   height: 800px;
   position: relative;
-  background-image: linear-gradient(#70b965,whitesmoke,#74b9ff);
 }
 
 .fasilitas div{
@@ -179,7 +179,7 @@ header button:hover{
 .objek-wisata{
   width: 100%;
   height: 800px;
-  background-image: linear-gradient(#74b9ff, whitesmoke, #fffa65);
+  background-color: lightgreen;
 }
 
 .objek-wisata h2{
@@ -304,7 +304,7 @@ header button:hover{
   width: 100%;
   height: 800px;
   position: relative;
-  background-image: linear-gradient(#fffa65,whitesmoke,#fde0508d)
+  background-color: lightblue;
 }
 
 .harga div{
@@ -420,7 +420,7 @@ header button:hover{
   width: 50px;
   height: 50px;
   border: 4px solid #44bd32;
-  border-radius: 50px;
+  border-radius: 50%;
   right: 10px;
   bottom: 10px;
   transition: .5s;
@@ -439,6 +439,7 @@ header button:hover{
 .fixed-button:hover{
   border-color: rgb(51, 168, 30);
   background-color: rgb(51, 168, 30);
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
 
 .fixed-button:hover .arrow-up{
